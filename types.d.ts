@@ -1,0 +1,30 @@
+export interface Esbirros {
+  cod_emp: string;
+  cedula: string;
+  grado_militar: string;
+  apellido1: string;
+  apellido2: string | null;
+  nombre1: string;
+  nombre2: string | null;
+  ubicacion: string;
+  ubicacion_detallada: string;
+  cargo: string;
+  tipo_emp: string;
+  categoria: string;
+  sueldo: string;
+  fecha_nacim: string;
+  sexo: string;
+  estado_civil: string;
+  nivel_instruccion: string;
+  direccion: string;
+  ciudad: string;
+  estado: string;
+  telefono_cel: string;
+  telefono_ofi: string;
+  correo: string;
+  ciudad_origen: string;
+  estados_origen: string;
+  vivienda: string;
+  discapacidad: string;
+  riesgo: string;
+}

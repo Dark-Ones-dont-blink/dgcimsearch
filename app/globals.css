@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .container {
+    @apply px-[5vw];
+  }
+
+  h1 {
+    @apply text-5xl leading-tight font-anton;
+  }
+  h2 {
+    @apply text-4xl leading-tight font-anton;
+  }
+  h3 {
+    @apply text-3xl leading-tight font-anton;
+  }
+  h4 {
+    @apply text-2xl leading-tight font-anton;
+  }
+  h5 {
+    @apply text-xl leading-tight font-anton;
+  }
+  h6 {
+    @apply text-lg leading-tight font-anton;
+  }
+  body {
+    @apply text-base font-sans;
+  }
+  small {
+    @apply text-sm;
+  }
+}
